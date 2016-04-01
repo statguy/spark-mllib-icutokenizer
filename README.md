@@ -18,7 +18,7 @@ to remove non-words.
 
 See examples in the unit tests directory (coming soon...).
 
-Use the standard [SBT](http://www.scala-sbt.org/) one-liner `sbt package` to build a jar from the sources to be
+Use the standard [SBT](http://www.scala-sbt.org/) one-liner `sbt package` to build a JAR from the sources to be
 included in your project.
 
 Feedback: Jussi Jousimo, [`jvj@iki.fi`](mailto:jvj@iki.fi).
