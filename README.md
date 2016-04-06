@@ -20,7 +20,7 @@ the strings and apply
 [`RegexTokenizer`](https://spark.apache.org/docs/1.6.1/api/java/org/apache/spark/ml/feature/Tokenizer.html)
 to remove non-words.
 
-See examples in the unit tests directory (coming soon...).
+See examples in the [unit tests source code](/blob/master/src/test/scala-2.10/ICUTokenizerTest.scala).
 
 Use the standard [SBT](http://www.scala-sbt.org/) one-liner `sbt package` to build a JAR from the sources to be
 included in your project.
