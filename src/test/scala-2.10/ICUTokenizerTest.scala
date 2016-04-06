@@ -41,7 +41,6 @@ class ICUTokenizerTest extends FlatSpec with Matchers with BeforeAndAfter {
       .setLocale(new Locale("th"))
     val df1 = tokenizer.transform(df0)
     val tokens = df1.collect.map(_.getAs[mutable.WrappedArray[String]]("tokens").toArray)
-    tokens.foreach(println)
     tokens should be(Array(
       Array("สวัสดี", "ค่ะ"),
       Array("ยินดี", "ที่", "ได้", "รู้จัก", "ค่ะ"))
