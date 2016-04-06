@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/statguy/spark-mllib-icutokenizer.svg?branch=master)](https://travis-ci.org/statguy/spark-mllib-icutokenizer)
+
 ICU tokenizer for Apache Spark
 ==============================
 
