@@ -10,3 +10,5 @@ libraryDependencies ++= Seq(
   "com.ibm.icu" % "icu4j" % "57.1",
   "org.scalatest" %% "scalatest" % "3.0.0-M16-SNAP1" % "test"
 )
+
+publishTo := Some(Resolver.file("file", new File(Path.userHome.absolutePath + "/.m2/repository")))
