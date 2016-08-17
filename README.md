@@ -9,8 +9,8 @@ separates words from text of the languages that [the ICU project](http://icu-pro
 the tokenizer is useful for languages in which the words are written together without clear boundaries,
 such as many Asian languages. Usage is similar to
 [`Tokenizer`](https://spark.apache.org/docs/1.6.1/api/java/org/apache/spark/ml/feature/Tokenizer.html)
-except the language is first defined with the `setLocale(locale)` method, where `locale` is
-the [`java.util.Locale`](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) object.
+except the language is first defined with the `setLocale(locale)` method, where `locale` is a
+[`java.util.Locale`](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) object.
 * Additionally, the extension provides `org.apache.spark.ml.feature.Concatenator` transformer that concatenates
 an array of strings in a Spark
 [data frame](https://spark.apache.org/docs/1.6.1/api/java/org/apache/spark/sql/DataFrame.html) to a single string.
@@ -22,7 +22,7 @@ to remove non-words.
 
 See examples in the [unit tests source code](/src/test/scala-2.10/ICUTokenizerTest.scala).
 
-Use the standard [SBT](http://www.scala-sbt.org/) one-liner `sbt package` to build a JAR from the sources to be
-included in your project.
+Run [SBT](http://www.scala-sbt.org/) `sbt package` to build a JAR from the sources to be included in
+your project.
 
 Feedback: Jussi Jousimo, [`jvj@iki.fi`](mailto:jvj@iki.fi).
